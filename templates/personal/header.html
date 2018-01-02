@@ -10,6 +10,7 @@
 	{% load staticfiles %}
 	<link rel="stylesheet" href="{% static 'personal/vendor/bootstrap/css/bootstrap.min.css' %}" type = "text/css"/>
 	<link rel="stylesheet" href="{% static 'personal/css/scrolling-nav.css' %}" type = "text/css"/>
+  <link rel="stylesheet" href="{% static 'personal/css/proj-carousel.css' %}" type = "text/css"/>
 
 </head>
 
@@ -40,6 +41,8 @@
 
     <header class="bg-primary text-white">
       <div class="container text-center">
+      <!-- <img src="{% static 'personal/img/profile.jpg' %}" class="responsive-img" max-height:200px;border-radius:50%;' alt="face"> -->
+
         <h1>Edmond Ye</h1>
         <p class="lead">Fullstack Web Developer | PHP | Python</p>
       </div>
@@ -92,6 +95,8 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="{% static 'personal/js/scrolling-nav.js' %}"></script>
+    <script src="{% static 'personal/js/proj-carousel.js' %}"></script>
+
 </body>
 
 </html>

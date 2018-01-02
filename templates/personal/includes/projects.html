@@ -1,9 +1,87 @@
 {% block content %}
 <h2>Projects</h2>
 <p class="lead">Below are a list of projects I am currently working on or have worked on in the past.</p>
-<ul>
-	<li>My Personal Page</li>
-	<li>MyHub (title in progress)</li>
-	<li>Hell Run</li>
-</ul>
+
+<div class="container-fluid">
+
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner row w-100 mx-auto">
+      <div class="carousel-item col-md-4 active">
+        <div class="card text-center">
+		  <div class="card-header">
+		    <a href="#page-top">Personal Page</a>
+		  </div>
+		  <div class="card-block">
+		    <p class="card-text">A Personal Website I set up to tell you more about myself using Django.</p>
+		  </div>
+		  <div class="card-footer text-muted">
+		    In Progress
+		  </div>
+		</div>
+      </div>
+      <div class="carousel-item col-md-4">
+        <div class="card text-center">
+		  <div class="card-header">
+		    <a href="">EdoHub</a>
+		  </div>
+		  <div class="card-block">
+		    <p class="card-text">My first Django Project. I realized whenever I first turn on the computer, their are several websites that I always check. This project essentially gathers data from all my frequently visited websites and displays it in one place.</p>
+		  </div>
+		  <div class="card-footer text-muted">
+		    In Progress
+		  </div>
+		</div>
+      </div>
+      <div class="carousel-item col-md-4">
+        <div class="card text-center">
+		  <div class="card-header">
+		    <a href="https://github.com/edmondye502/IliosProject" target="_blank">Ilios Project</a>
+		  </div>
+		  <div class="card-block">
+		    <p class="card-text">The Ilios Curriculum Visualizer was a project I worked on with UCSF Medical Center. It is an interactive graphical representation of important aspects of curricula in the medical and health professions education. This project was implemented using HTML/CSS/JS and D3 Library.</p>
+		  </div>
+		  <div class="card-footer text-muted">
+		    2015
+		  </div>
+		</div>
+      </div>
+      <div class="carousel-item col-md-4">
+        <div class="card text-center">
+		  <div class="card-header">
+		    <a href="https://github.com/JayhawkForLife/HellRunV3" target="_blank">Hell Run</a>
+		  </div>
+		  <div class="card-block">
+		    <p class="card-text">Hell Run was a 2D Platformer I worked on with a team of four. It included multiple levels, different types of AI enemies, save points, and a decent attacking mechanism. This project built using Unity and C#.</p>
+		  </div>
+		  <div class="card-footer text-muted">
+		    2014
+		  </div>
+		</div>
+      </div>
+      <div class="carousel-item col-md-4">
+        <div class="card text-center">
+		  <div class="card-header">
+		    <a href="https://github.com/EyeWumbo/5Dev" target="_blank">5Dev Game</a>
+		  </div>
+		  <div class="card-block">
+		    <p class="card-text">The 5Dev Game was a series of mini-games built by me and a team of 4 others. We entered this game into the 2014 Austism App Jam and ended up winning Most Entrepreneurial Award. This Android App was designed using Java.</p>
+		  </div>
+		  <div class="card-footer text-muted">
+		    2014
+		  </div>
+		</div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <a class="btn btn-outline-secondary carousel-prev" title="prev"><</a>
+            <a class="btn btn-outline-secondary carousel-next" title="next">></a>
+        </div>
+    </div>
+    
+  </div>
+
+</div>
+
 {% endblock %}
