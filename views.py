@@ -10,6 +10,8 @@ def contact(request):
 def projects(request, proj):
 	if proj == 'personalpage':
 		content = {'Name': 'Personal Page', 'Description': "A Personal Website I set up to tell you more about myself and the projects I've worked on. This page was set up using Python and Django.", 'Links' : {'Link': '/', 'Github': 'https://github.com/edmondye502/personal'}}
+	elif proj == 'budget':
+		content = {'Name': 'Budget', 'Description': "A cronjob script I set up that takes specific emails about a purchase and automatically inserts it into my budget sheet. I made this script to help me keep track of my expenses by sending a simple text to a email I set up.", 'Links' : {'Github': 'https://github.com/edmondye502/budget'}}
 	elif proj == 'edohub':
 		content = {'Name': 'EdoHub', 'Description': "I realized whenever I first turn on my computer I visit the same sites each time just to look at a couple things. I decided to make a site that would gather all the data from each of those sites and display it all in one place. This project was made using Python, Django, and a bunch of APIs.", 'Links' : {'Github': 'https://github.com/edmondye502/edohub'}}
 	elif proj == 'foodpicker':
